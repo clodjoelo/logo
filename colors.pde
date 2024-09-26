@@ -25,15 +25,9 @@ class colors{
   
   
   public void setZones(){
-    /*zones[0] = 156;
-    zones[1] = 295; 
-    zones[2] = 434;
-    zones[3] = 575;*/
     zones[0] = 195;
     zones[1] = 375; 
-    zones[2] = 555;
-    //zones[3] = 575;
-   // zones[4] = 714;   
+    zones[2] = 555;  
   }
   
   public void setBrightnessFalse(){
