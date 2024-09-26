@@ -18,8 +18,6 @@ class Timer {
   void start() {
     // When the timer starts it stores the current time in milliseconds.
     savedTime = millis();
-    //println(savedTime);
-   //println("starting", totalTime); 
   }
   
   void kill(){
