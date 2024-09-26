@@ -88,40 +88,5 @@ class colors{
   
   public color getFourBitColor(){
     return currentColor;
-  }
-  
-  public void getColorPixelate(){
-    
-    /* largeProfile.loadPixels();
-      int totalSquares = 0;
-      for(int i =0; i<wdth;i+=pixelFactorX){
-        for(int j = 0; j<hght; j+=pixelFactorY){
-          totalRed = new float[1];
-          totalGreen = new float[1];
-          totalBlue = new float[1];
-          float averageRed;
-          float averageGreen;
-          float averageBlue;
-            for(int k=i;k<i+pixelFactorX;k++){
-              for(int l=j;l<j+pixelFactorY;l++){     
-                 int locPix = (k+x)+(l+y)*width;
-                 int imgPix = k+l*wdth;
-                 float r = red(largeProfile.pixels[imgPix]);
-                 float g = green(largeProfile.pixels[imgPix]);
-                 float b = blue(largeProfile.pixels[imgPix]);
-                 totalRed[0] = totalRed[0]+r;
-                 totalGreen[0] = totalGreen[0]+g;
-                 totalBlue[0] = totalBlue[0]+b; 
-            }
-        }
-           averageRed = totalRed[0]/totalPixSquare;
-           averageGreen = totalGreen[0]/totalPixSquare;
-           averageBlue = totalBlue[0]/totalPixSquare;
-           squares[totalSquares]= color(averageRed,averageGreen,averageBlue);
-           totalSquares++;
-        }
-      }*/
-    
-  }
-  
+  }  
 }
